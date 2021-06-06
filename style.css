@@ -5,7 +5,7 @@
 position: absolute;
 width: 57px;
 height: 21px;
-left: 252px;
+left: 322px;
 top: 138px;
 list-style: none;
 
@@ -14,7 +14,7 @@ list-style: none;
 font-family: Montserrat;
 font-style: normal;
 font-weight: normal;
-font-size: 14px;
+font-size: 25px;
 line-height: 150%;
 /* identical to box height, or 21px */
 
@@ -22,20 +22,33 @@ text-align: center;
 
 color: #FFFFFF;
 
+
   }
+
+  .navigation li {
+    border: 1px #FFFFFF  solid; width:100px;
+    padding:  20px 116px  20px 116px;
+   
+    left:  50px;
+  }
+
+
+
   address {
 position: absolute;
 width: 202px;
 height: 20px;
 left: 179px;
 top: 75px;
+left: 20px;
+
 
 /* text / 13m */
 
 font-family: Montserrat;
 font-style: normal;
 font-weight: 500;
-font-size: 13px;
+font-size: 20px;
 line-height: 150%;
 /* identical to box height, or 19px */
 
@@ -46,23 +59,87 @@ color: #FFFFFF;
   }
 
   .contacts a {
-    position: absolute;
-width: 107px;
+position: absolute;
+width: 202px;
 height: 20px;
-left: 1142px;
-top: 75px;
+left: 179px;
+top: 45px;
+left: 20px;
+font-size: 5px;
 
 /* text / 13m */
 
 font-family: Montserrat;
 font-style: normal;
 font-weight: 500;
-font-size: 13px;
+font-size: 20px;
 line-height: 150%;
 /* identical to box height, or 19px */
 
-text-align: right;
 
 color: #FFFFFF;
   }
+
+
+  img {
+    background: no-repeat center top fixed;
+    min-width:100%;
+        min-height:100%;
+  }
+
+  .text-wine-cup {
+width: 1142px;
+height: 1417px;
+left: 530px;
+top: 1113px;
+
+/* black */
+
+background: #282828;
+border: 1px solid #000000;
+box-sizing: border-box;
+  }
+
+   .text-wine-cup p {
+    position: absolute;
+width: 361px;
+height: 552px;
+left: 498px;
+top: 1572px;
+
+/* text / 16r */
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+text-align: center;
+
+color: #FFFFFF;
+   }
+
+
+   .text-wine-cup h3 {
+    position: absolute;
+width: 448px;
+height: 108px;
+left: 455px;
+top: 1434px;
+
+/* h2 / 36b */
+
+font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 150%;
+/* or 54px */
+
+text-align: center;
+
+color: #FFFFFF;
+   }
 }
