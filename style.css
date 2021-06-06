@@ -1,0 +1,68 @@
+@media screen and (max-width: 479px)  {
+  body { font-size: 13px }
+  .navigation ul {
+
+position: absolute;
+width: 57px;
+height: 21px;
+left: 252px;
+top: 138px;
+list-style: none;
+
+/* text / 14r */
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 150%;
+/* identical to box height, or 21px */
+
+text-align: center;
+
+color: #FFFFFF;
+
+  }
+  address {
+position: absolute;
+width: 202px;
+height: 20px;
+left: 179px;
+top: 75px;
+
+/* text / 13m */
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 150%;
+/* identical to box height, or 19px */
+
+
+color: #FFFFFF;
+
+
+  }
+
+  .contacts a {
+    position: absolute;
+width: 107px;
+height: 20px;
+left: 1142px;
+top: 75px;
+
+/* text / 13m */
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 150%;
+/* identical to box height, or 19px */
+
+text-align: right;
+
+color: #FFFFFF;
+  }
+}
